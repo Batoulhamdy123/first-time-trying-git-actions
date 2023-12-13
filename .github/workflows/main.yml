@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing Github Actions '
-        run: pwd 
-      - name: 'Testing Printing '
-        run: echo batoul 
+      - name: 'Printing Folder content '
+        run: ls 
+     
